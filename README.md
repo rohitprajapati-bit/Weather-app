@@ -8,8 +8,6 @@
 
 - [Features](#features)
 - [Technology Stack](#technology-stack)
-- [Architecture](#architecture)
-- [State Management](#state-management)
 - [Pages and Functionality](#pages-and-functionality)
 - [Setup](#setup)
 - [Contributors](#contributors)
@@ -27,20 +25,6 @@
 - **Framework**: Flutter
 - **Language**: Dart
 - **Backend**: OpenWeather API (or another reliable weather API)
-
-## Architecture
-
-The app follows the MVVM (Model-View-ViewModel) architecture to ensure a clean separation of concerns for ease of maintenance and scalability.
-
-### Key Components:
-
-- **Model**: Handles the weather data fetched from the API.
-- **View**: Displays the weather data and UI components such as temperature, humidity, and forecast.
-- **ViewModel**: Bridges the gap between the View and Model, processing data and managing user interactions.
-
-## State Management
-
-The app uses the **Provider** package for efficient state management, ensuring the UI updates in real time when new data is fetched from the API.
 
 ## Pages and Functionality
 
